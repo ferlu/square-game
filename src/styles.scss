@@ -1,0 +1,32 @@
+$pink : #ffc0cb;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.square {
+  border-radius: 4px;
+  background-color: $pink;
+  border: 1px solid palevioletred;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: linear .2s;
+
+  &:hover {
+    background-color: darken($pink, 15);
+    transition: linear .2s;
+  }
+}
+
+.grid-layout {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+
+.memo-bg {
+  background-color:peachpuff;
+}
